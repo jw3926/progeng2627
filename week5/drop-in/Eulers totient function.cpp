@@ -53,7 +53,7 @@ int find_peak(int a, int b){
         totient_sum(i-1, depth_x_m_1);
         totient_sum(i+1, depth_x_p_1);
         if (depth_x > depth_x_m_1 && depth_x > depth_x_p_1 ){
-        peak = (depth_x-depth_x_m_1+depth_x-depth_x_p_1)/2;
+        peak = (depth_x-depth_x_m_1+depth_x-depth_x_p_1)/2.0;
         if (peak>max_peak){
             max_peak = peak;
             max_x = i;
