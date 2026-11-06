@@ -4,6 +4,7 @@
 # Object files
 *.o
 *.obj
+*.txt
 
 # Debug files
 *.pdb
